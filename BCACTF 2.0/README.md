@@ -1,12 +1,12 @@
-<h1>WEBEX<h1>
+<h3>WEBEX</h3>
 
-1. Countdown Timer
+1. <h5>Countdown Timer</h5>
 
-Problem question - Get the flag once the countdown timer reaches zero!However, the minimum time you can set for the countdown is 100 days, so you might be here for a while.
+**Problem question** - Get the flag once the countdown timer reaches zero!However, the minimum time you can set for the countdown is 100 days, so you might be here for a while.
 
-link - http://web.bcactf.com:49154/
+**Link** - http://web.bcactf.com:49154/
 
-Hint 1 - Can you manipulate a website's JavaScript?
+**Hint 1** - <details>Can you manipulate a website's JavaScript?</details>
 
 When you visit the given website, it allows you to input no. of days in which the flag get's displayed. The catch here is you can't enter a number any less than 100. There's a "Start Countdown" which starts the countdown to the flag.
 
