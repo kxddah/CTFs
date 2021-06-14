@@ -75,7 +75,7 @@ As the hint says, we can edit JS here, so we start the timer, and declare the va
 
 This is a basic cookie problem, you visit the website and log in as a guest. On opening Inspect element and you see the cookie with the following value
 
-![alt text]
+![alt text](https://github.com/kxddah/CTFs/blob/main/BCACTF%202.0/bcalight1.png?raw=true)
 
 When you try to turn the lights off it says you need to be the admin, just change the value from vampire to admin and turn off the lights which gives you the flag
 
