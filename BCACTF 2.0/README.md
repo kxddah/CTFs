@@ -60,9 +60,9 @@ As the hint says, we can edit JS here, so we start the timer, and declare the va
 
 ```Flag - bcactf{1_tH1nK_tH3_CtF_w0u1D_b3_0v3r_bY_1O0_dAy5}```
 
--------
+=======
 
-2. <h3>ome Automation</h3> 
+2. <h3>Home Automation</h3> 
 
 **Problem question** - Check out my super secure home automation system! No, don't try turning the lights off...
 
