@@ -7,7 +7,8 @@
 **Link** - http://web.bcactf.com:49154/
 
 **Hint 1** - <details>Can you manipulate a website's JavaScript?</details>
-------
+
+-------------
 
 When you visit the given website, it allows you to input no. of days in which the flag get's displayed. The catch here is you can't enter a number any less than 100. There's a "Start Countdown" which starts the countdown to the flag.
 
