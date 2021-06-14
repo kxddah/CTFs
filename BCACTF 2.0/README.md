@@ -60,7 +60,10 @@ As the hint says, we can edit JS here, so we start the timer, and declare the va
 
 ```Flag - bcactf{1_tH1nK_tH3_CtF_w0u1D_b3_0v3r_bY_1O0_dAy5}```
 
-=======
+
+&nbsp  
+&nbsp  
+&nbsp  
 
 2. <h3>Home Automation</h3> 
 
@@ -81,7 +84,11 @@ When you try to turn the lights off it says you need to be the admin, just chang
 
 ```flag -  bcactf{c00k13s_s3rved_fr3sh_fr0m_th3_smart_0ven_cD7EE09kQ}```
 
----------
+
+&nbsp  
+&nbsp  
+&nbsp  
+
 
 3. <h3>Movie-Login-1</h3>
 
@@ -95,9 +102,14 @@ When you try to turn the lights off it says you need to be the admin, just chang
 
 This is a basic SQL injection problem
 
-We input **‘ or 1=1--** as the username, which ends the sql syntax and makes the statement true giving us access to the flag
+We input *‘ or 1=1--* as the username, which ends the sql syntax and makes the statement true giving us access to the flag
 
 ```flag - bcactf{s0_y0u_f04nd_th3_fl13r?}```
+
+
+&nbsp  
+&nbsp  
+&nbsp  
 
 
 4. <H3>Agent Gerald</H3>
@@ -110,12 +122,17 @@ We input **‘ or 1=1--** as the username, which ends the sql syntax and makes t
 
 -----
 
-The way websites know the browser we're using is the header ```“User-Agent”``` which we send in http request to the server
+The way websites know the browser we're using is the header *“User-Agent”* which we send in http request to the server
 We could use the inspect element to send a request with a modified User-Agent value
 Open the network tab in Inspect element, edit and resend the “/” request with the “User-Agent: Agent Gerald" value
 The response should have the flag
 
 ```flag - bcactf{y0u_h@ck3d_5tegos@urus_1nt3lligence}```
+
+
+&nbsp  
+&nbsp  
+&nbsp  
 
 
 5. <h3>Movie-Login-2</h3>
@@ -136,11 +153,16 @@ Content of file attached -
 This is similar to Movie-Login-1 but this time there's some input sanitation. The file provided gives us the the inputs getting sanatised
 
 So we modify our input to be -
-**' or true--**
+*' or true--*
 
 which still has the same meaning as the previous payload
 
 ```flag - bcactf{h0w_d1d_y0u_g3t_h3r3_th1s_t1m3?!?}```
+
+
+&nbsp  
+&nbsp  
+&nbsp  
 
 
 6. <H3>Movie-Login-3</H3>
@@ -174,9 +196,9 @@ Content of file attached -
 This is similar to Movie-Login-2 but this time there's some more input sanitation. The file provided gives us the the inputs getting sanatised
 
 So we modify our input to be -
-```' OR 2 LIKE 2--```
+*' OR 2 LIKE 2--*
 
-here **“2 LIKE 2”** gives us the boolean value TRUE , and -- comments out rest of the sql command
+here *“2 LIKE 2”* gives us the boolean value *TRUE* , and *--* comments out rest of the sql command
 
 ```flag - bcactf{gu3ss_th3r3s_n0_st0pp1ng_y0u!}```
 
