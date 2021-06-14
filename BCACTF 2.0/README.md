@@ -1,4 +1,4 @@
-<h3>WEBEX</h3>
+<h2>WEBEX</h2>
 
 1. <h5>Countdown Timer</h5>
 
@@ -7,12 +7,13 @@
 **Link** - http://web.bcactf.com:49154/
 
 **Hint 1** - <details>Can you manipulate a website's JavaScript?</details>
-alt+h1
+------
 
 When you visit the given website, it allows you to input no. of days in which the flag get's displayed. The catch here is you can't enter a number any less than 100. There's a "Start Countdown" which starts the countdown to the flag.
 
 If you check the source of the page it gives you the code and the part which interests us is the Javascript code - 
 
+```javascript
 <script type="text/javascript">
         var time = 100000;
         var minTime = 100;
@@ -48,7 +49,8 @@ If you check the source of the page it gives you the code and the part which int
             document.getElementById("remainingTime").innerHTML = numdays + " Days " + numhours + " Hours " + numminutes + " Minutes " + numseconds + " Seconds";
         }
     </script>
-    
+```
+
 When you examine the JS code carefully, the condition if (time <= 0) triggers the getFlag() funtion
 As the hint says, we can edit JS here, so we start the timer, and declare the value of time=0 in the console of Inspect Element which gives us the flag
 
